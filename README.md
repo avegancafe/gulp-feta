@@ -18,9 +18,10 @@ gulp.task("html", function() {
 });
 ```
 
-The above example will take all of your html files within `app/partials` and
-create a file called `dist/partials.js` where it initializes an object called
-`feta` and adds all of the partials there.
+The above example will take all of your `html` files within `app/partials` and
+creates a file called `dist/partials.js` where it initializes an object called
+`feta` and adds all of the partials to that object, each who's key is their
+respective path, from the root of the glob provided to `gulp.src()`.
 
 ## Example input & output
 
