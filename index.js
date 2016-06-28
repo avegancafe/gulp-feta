@@ -8,7 +8,7 @@ var path = require('path');
 
 var PLUGIN_NAME = "gulp-feta";
 
-var start = "var JST = {};";
+var start = "var feta = {};";
 
 function formatMarkup(filename, markup) {
   var content = escape(markup);
@@ -17,7 +17,7 @@ function formatMarkup(filename, markup) {
     content = content.slice(0, content.length - 2);
   }
 
-  return "JST['" + filename + "'] = \'" + content + "\';";
+  return "feta['" + filename + "'] = \'" + content + "\';";
 }
 
 function escape(str) {
