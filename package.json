@@ -1,6 +1,6 @@
 {
   "name": "gulp-feta",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Loads all HTML partials into an object in JS",
   "main": "index.js",
   "dependencies": {
