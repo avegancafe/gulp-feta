@@ -1,0 +1,21 @@
+{
+  "name": "gulp-feta",
+  "version": "1.0.0",
+  "description": "Loads all HTML partials into an object in JS",
+  "main": "index.js",
+  "dependencies": {
+    "concat-with-sourcemaps": "^1.0.4",
+    "gulp": "^3.9.1",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyleholzinger/gulp-feta.git"
+  },
+  "author": "Kyle Holzinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyleholzinger/gulp-feta/issues"
+  },
+  "homepage": "https://github.com/kyleholzinger/gulp-feta#readme"
+}
