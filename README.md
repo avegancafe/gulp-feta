@@ -44,6 +44,6 @@ Output:
 ```javascript
 var feta = {};
 feta['f1/test'] = 'Hello, world!\nnewline\n';
-feta['f2/test'] = 'Another partial!!\n\n\nThis one has \"quotes,\" whatever those are\n";
+feta['f2/test'] = 'Another partial!!\n\n\nThis one has \"quotes,\" whatever those are\n';
 ```
 
